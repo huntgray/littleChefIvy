@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  div(class='contact_container')
+    img(src='images/contact-image.jpg', class='black_white')
+    p.sayHi
+      | Say&nbsp;
+      span hi
+    p.ivyEmail
+      | Hello
+      span @
+      | littlechefivy.com
+  form(action="/cgi/gdform.php", method="POST" id='contact_form')
+    div.input_box
+      label(for="visitor_name") Name
+      input(type="text", id="visitor_name", name="visitor_name")
+      img(src='images/form_arrow_1.png', width="50px", height='auto', class='form_arrows form_arrow_1')
+    div.input_box
+      label(for="email") Email
+      input(type="text", id="email" name="email")
+      img(src='images/form_arrow_2.png', width="50px", height='auto', class='form_arrows form_arrow_2')
+    div.input_box
+      label(for="purpose") Subject
+      input(type="text", id="subject" name="subject")
+      img(src='images/form_arrow_3.png', width="40px", height='auto', class='form_arrows form_arrow_3')
+    div.input_box
+      label(for="additional_notes") Message
+      textarea(rows="4", cols="25", id="message", name="message")
+    input(type="submit", value="Submit", class='submit')

@@ -1,0 +1,41 @@
+extends layout
+
+block content
+
+  div.lets_cook
+    img(src='images/lets-cook-image.jpg', width='400px', height='auto', class='lets_cook_img')
+    div.utensils
+      img(src='images/fork.png', width='20px', height='auto')
+      img(src='images/spoon.png', width='18px', height='auto')
+      img(src='images/knife.png', width='13px', height='auto')
+      img(src='images/fork.png', width='20px', height='auto')
+      img(src='images/spoon.png', width='18px', height='auto')
+      img(src='images/knife.png', width='13px', height='auto')
+    div.lets_cook_copy
+      h1
+        | Let's&nbsp;
+        span cook!
+      p This could be a section with current, easy, kid-friendly recipes developed by Ivy. There could be links to the recipes with photos or videos of Ivy cooking them.
+      p Not sure what other info you wanted to share, but maybe featuring something different every 1-2 weeks to get kids to check back in.
+      div#recipes
+        a(href='javascript:void(0)')
+          span Recipes
+      div#more_recipes_outer_container(onmouseover="document.body.style.overflow='hidden';", onmouseout="document.body.style.overflow='auto';")
+        a(href="javascript:void(0)", class="fa fa-gittip", id='close_heart')
+        section#recipes_container
+          h1 Real Mac &amp; Cheese
+          ul
+            li Rule #1 &ndash; Use only real cheese (no powdered cheese ever!)
+            li Rule #2 &ndash; Use multiple cheese-type varieties (ex: sharp cheddar, monterey jack, bleu)
+            li Rule #3 &ndash; Choose an extra protein like bacon to liven it up!
+            li Rule #1 &ndash; Use only real cheese (no powdered cheese ever!)
+            li Rule #2 &ndash; Use multiple cheese-type varieties (ex: sharp cheddar, monterey jack, bleu)
+            li Rule #3 &ndash; Choose an extra protein like bacon to liven it up!
+            li Rule #1 &ndash; Use only real cheese (no powdered cheese ever!)
+            li Rule #2 &ndash; Use multiple cheese-type varieties (ex: sharp cheddar, monterey jack, bleu)
+            li Rule #3 &ndash; Choose an extra protein like bacon to liven it up!
+            li Rule #1 &ndash; Use only real cheese (no powdered cheese ever!)
+            li Rule #2 &ndash; Use multiple cheese-type varieties (ex: sharp cheddar, monterey jack, bleu)
+            li Rule #3 &ndash; Choose an extra protein like bacon to liven it up!
+        button More Recipes
+
