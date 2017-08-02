@@ -1,4 +1,7 @@
+# Little Chef Ivy
 
-# Blog
+NodeJS build on Wintersmith.io static site generator.
 
-Welcome to Little Chef Ivy's blog...coming soon.
+Run npm install, then wintersmith preview.
+
+Run wintersmith build to generate a static site into the build directory.
