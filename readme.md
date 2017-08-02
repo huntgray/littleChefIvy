@@ -1,4 +1,4 @@
-# Little Chef Ivy
+# Little Chef Ivy {work-in-progress}
 
 NodeJS build on Wintersmith.io static site generator.
 
